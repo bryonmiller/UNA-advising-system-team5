@@ -1,0 +1,24 @@
+ID,Task,Time (days),Predecessors,Start Time,End Time
+A,Locate and reserve server space and/or necessary hardware,5,None,0,5
+B,Locate and reserve webspace for advising system website/page,2,None,0,2
+C,Create database on server with all necessary fields,10,A,5,15
+D,Connect new DB to other DBs and map fields appropriately,10,C,15,25
+E,Develop website to host future GUI,10,"B, D",25,27
+F,Import data from other DBs,5,D,25,30
+G,Develop an auto-import program for use each semester,3,D,30,33
+H,"Develop programs to view, edit, and query database",20,F,30,50
+I,Develop a GUI for accessing the programs and database,15,H,50,65
+J,Add GUI to website,5,"E, I",65,70
+K,Add login functionality to the website for accessing the system,2,J,70,72
+L,Create user types and access/control rules for types,2,K,72,74
+M,Create user accounts and assign types,5,L,74,79
+N,Add audit trail functionality for schedule and degree changes,5,L,74,79
+O,Create instructional material for all user types,10,L,74,84
+P,Go live internally with the website and advising system,1,"M, N",79,80
+Q,Train Administrators to use the system,15,"O, P",84,99
+R,Train Registrars to use the system,10,"O, P",84,94
+S,Train Advisors to use the system,10,"O, P",84,94
+T,Go live globally with the website and advising system,1,"Q, R, S",99,100
+U,Pilot group testing with Advisees,5,T,100,105
+V,Market to all Advisees and send them instructional material,5,U,105,110
+W,Continue to train and assist with advising system implementation,10,V,110,120
