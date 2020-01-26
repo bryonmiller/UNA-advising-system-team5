@@ -3,7 +3,7 @@ A,Locate and reserve server space and/or necessary hardware,5,None,0,5
 B,Locate and reserve webspace for advising system website/page,2,None,0,2
 C,Create database on server with all necessary fields,10,A,5,15
 D,Connect new DB to other DBs and map fields appropriately,10,C,15,25
-E,Develop website to host future GUI,10,"B, D",25,27
+E,Develop website to host future GUI,10,"B, D",25,35
 F,Import data from other DBs,5,D,25,30
 G,Develop an auto-import program for use each semester,3,D,30,33
 H,"Develop programs to view, edit, and query database",20,F,30,50
