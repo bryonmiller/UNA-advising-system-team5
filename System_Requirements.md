@@ -1,5 +1,5 @@
 # Team 5 System Requirements
-Bryon Miller, Sai Namilakonda, and Andry Ndongo
+Bryon Miller, Sai Namilakonda, and Andry Ndongosieme
 
 ## End-user Roles
 
@@ -58,7 +58,7 @@ The following requirements are organized by end-user type.
 * Remove class from schedule
 
 ### Advisor Information
-* View assigned Advisor’s contact information (name, title, department, phone number, email, and room number)
+* View assigned Advisorâ€™s contact information (name, title, department, phone number, email, and room number)
 
 ## Registrar
 ### Degree Plan
