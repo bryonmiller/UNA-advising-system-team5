@@ -14,11 +14,10 @@ L,Create user types and access/control rules for types,2,K,72,74
 M,Create user accounts and assign types,5,L,74,79
 N,Add audit trail functionality for schedule and degree changes,5,L,74,79
 O,Create instructional material for all user types,10,L,74,84
-P,Go live internally with the website and advising system,1,"M, N",79,80
-Q,Train Administrators to use the system,15,"O, P",84,99
-R,Train Registrars to use the system,10,"O, P",84,94
-S,Train Advisors to use the system,10,"O, P",84,94
-T,Go live globally with the website and advising system,1,"Q, R, S",99,100
-U,Pilot group testing with Advisees,5,T,100,105
-V,Market to all Advisees and send them instructional material,5,U,105,110
-W,Continue to train and assist with advising system implementation,10,V,110,120
+P,Go live internally with the website and advising system,1,"M, N, O",84,85
+Q,Train Administrators to use the system,15,P,85,100
+R,Train Advisors and Registrars to use the system,10,P,85,85
+S,Go live globally with the website and advising system,1,"Q, R",100,101
+T,Pilot group testing with Advisees,5,S,101,106
+U,Market to all Advisees and send them instructional material,5,T,106,111
+V,Continue to train and assist with advising system implementation,10,U,111,121
